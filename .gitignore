@@ -4,6 +4,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+browserState.json
+.gitignore
+src/main/resources/application.properties
+ombor1-600.xlsx
+ombor.xlsx
+
 ### STS ###
 .apt_generated
 .classpath
