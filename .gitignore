@@ -4,9 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-src/main/resources/browserState.json
+src/main/resources/
 #.gitignore
-src/main/resources/application.properties
+#src/main/resources/application.properties
 ombor1-600.xlsx
 ombor.xlsx
 
