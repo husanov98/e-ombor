@@ -54,15 +54,16 @@ public class OmborScraper extends Scraper {
                         try {
                             dto = fromLocator(selectorDto, facade);
                         } catch (Exception e) {
-                            System.out.println("omini yegani shu");
+                            dto.setTransportNumber(number);
+                            System.out.println("Ma'lumot topilmadi");
                         }
                         dtoList.add(dto);
-                        System.out.println("Siktirishlar soni = " + am);
+                        System.out.println("Clients count = " + am);
                         am++;
                     }
 //            selectorDtoList.addAll(selectorDtos);
                 }catch (Exception e){
-                    System.out.println("Omiga sike");
+                    System.out.println("Web page is not responding");
                 }
             }
 //        for (SelectorDto dto : selectorDtoList) {
